@@ -78,7 +78,7 @@ function countDown(secs) {
     if(secs < 1) {
         clearTimeout(timer);
         btn.disabled = false;
-        btn.value = 'OK clique aqui';
+        
     }
     secs--;
     var timer = setTimeout('countDown('+secs+')',1000);
